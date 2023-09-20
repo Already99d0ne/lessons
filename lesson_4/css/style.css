@@ -1,0 +1,142 @@
+/* Reset CSS*/
+@import url("reset.css");
+
+
+
+
+
+/*Тип №0. Селектор зірочка 
+
+   * {
+       color: red; 
+   }*/
+
+
+
+/* Тип №1. Селектор тегу 
+p {
+	 color: red; 
+}
+
+a {
+	 color: green; 
+}
+li {
+   color: brown;
+}
+*/
+
+
+
+
+/*Тип №2. Селектор класу
+Пробую eCSStracktor/*
+
+/*
+.paragraph {
+   color: brown;
+}
+.paragraph__prolog {
+   color: chocolate;
+}
+.img {
+   color: blueviolet;
+}
+.img__desc {
+   color: darkgrey;
+}
+.prolog__text {
+   color: black;
+}
+.content-list {
+   color: brown;
+}
+.content-list__title {
+   color: darkorange;
+}
+.pagraph__first {
+   color: darkcyan;
+   
+}
+.first__text {
+   color: darkgoldenrod;
+}
+.img__glob1 {
+   color: aqua;
+}
+.glob2 {
+   color: darkred;
+}
+.quote {
+   color: dodgerblue;
+}
+.quote__author {
+   color: blueviolet;
+}
+.paragraph__second {
+   color: darkslateblue;
+}
+.second__text {
+   color: midnightblue;
+}
+.content-list li {color: darkgreen;}
+*/
+
+
+/* Тип №3. Селектор ID */
+/*#first {color: crimson;}
+#second {color: blue;}*/
+
+/* КОМБІНАЦІЇ СЕЛЕКТОРІВ */
+/*p.quote {
+   color: darkred;
+}
+div.quote {
+	 color: green; 
+}*/
+
+
+/*.first__text.text{
+   color: green;
+}*/
+
+
+/* кілька класів */
+/*.quote,
+li,
+.img {
+   color: blueviolet;
+}*/
+
+/* Каскадність */
+/*.prolog__text a{
+   color: blue;
+}*/
+
+/*.img .img__desc{
+   color: blue;
+}*/
+
+/*.paragraph__prolog * {
+   color: blue;
+}*/
+
+/*.prolog__text > p {
+   color: blue;
+}*/
+
+/*.paragraph__prolog ~ div {
+   color: blue;
+}*/
+
+/*.paragraph__prolog + div {
+   color: blue;
+}*/
+
+/*[class*="__prolog"] {
+	 color: blue; 
+}*/
+
+a {
+   color: darkblue ;
+}
