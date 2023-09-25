@@ -1,0 +1,89 @@
+/* Підключаю шрифти вручну */
+@import url("fonts.css");
+
+/* Reset CSS*/
+@import url("reset.css");
+
+/* Google fonts*/
+
+/*Кожен окремо
+
+/* рандомний шрифт Google fonts*/
+
+  /*@import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap');*/
+
+  /* Основні шрифти макету */
+
+  /*@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');*/
+
+  /*@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');*/
+
+  /* Три одночасно з Google fonts */
+
+  /*@import url('https://fonts.googleapis.com/css2?family=Fuggles&family=Inter:wght@400;500;600;700&family=Poppins:wght@300;400;600;700&display=swap');*/
+
+  /* Підключаю шрифти плагіном */
+
+/*@import url("https://fonts.googleapis.com/css?family=Fuggles:regular&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500,600,700&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,regular,600,700&display=swap");*/
+
+
+/* Різні шрифти в різних статтях для наглядності підключення */
+/*body {
+   font-family: "inter", sans-serif;
+}
+
+.firstpage {
+   font-family: "Fuggles",sans-serif;
+}
+
+.secondpage{
+   font-family: "poppins",
+   sans-serif;
+}*/
+
+/* CSS властивості */
+
+body {
+   font-family: "Inter",sans-serif;
+   font-size: 18px;
+color: #7D7D7D;
+text-indent: 20px;
+/*white-space: nowrap;*/
+}
+.main-title {
+   font-family: "Fuggles";
+   font-size: 50px;
+   color: black;
+   text-align: center;
+   text-decoration: underline;
+   text-transform: capitalize;
+   line-height: 2;
+   letter-spacing: 10px;
+   word-spacing: 7px;
+}
+.title {
+   font-size: 40px;
+   color: #37393F;
+   text-shadow:
+   3px 3px 6px rgb(2, 169, 219),
+   6px -3px 12px #6903c9;
+   text-transform: capitalize;
+   line-height: 2;
+}
+.sub-title {
+   font-family: "Poppins";
+   font-style: italic;
+   font-size: 20px;
+   color: #6B77E5;
+   line-height: 1.5;
+}
+.list {
+   color: #6B77E5;
+   word-spacing: 5px;
+   font-style: italic;
+   text-decoration: underline;
+}
