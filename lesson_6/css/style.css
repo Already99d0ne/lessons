@@ -1,0 +1,199 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:regular&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:600&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=DM+Serif+Text:regular&display=swap");
+
+/* Reset CSS*/
+@import url("reset.css");
+
+body {
+   max-width: 1169px;
+   word-wrap: break-word;
+   font-family: "Inter";
+   font-weight: 400;
+   margin: 0 auto;
+}
+img {
+   width: 100%;
+   height: 100%;
+}
+.consulting {
+   max-width: 693px;
+   color: #7d7d7d;
+   font-size: 18px;
+   margin: 0 auto;
+   line-height: 26px;
+}
+.consulting__image {
+   margin: 0 0 40px 0;
+}
+.consulting__title {
+   line-height: 38px;
+   font-size: 30px;
+   margin: 0 0 3px 0;
+   color: #37393f;
+   font-family: "Poppins";
+   font-weight: 600;
+}
+.consulting__sub-title {
+   font-size: 20px;
+   font-family: "Poppins";
+   font-weight: 600;
+   color: #6b77e5;
+   margin: 0 0 12px 0;
+   line-height: 25px;
+}
+.consulting__text {
+   margin: 0 0 40px 0;
+}
+.consulting__botoom {
+   margin: 0 0 100px 0;
+}
+.vertical-align {
+   max-width: 100%;
+}
+.consulting__botoom .vertical-align__item {
+   max-width: 47.5%;
+   display: inline-block;
+   vertical-align: top;
+}
+.bottom__image {
+   width: 399px;
+   height: 266px;
+   margin: 0 29px 0 0;
+   /* намагався совати його трішки вліво, як на макеті, та не вийшло... схитрив скачавши шар а не все зоображення */
+}
+.bottom__title {
+   font-size: 25px;
+   line-height: 32px;
+   margin: 0 0 15px 0;
+}
+.botoom__sub-title {
+   color: #40ddb6;
+   margin: 0 0 21px 0;
+}
+.botoom__li li {
+   margin: 0 0 30px 0;
+   padding: 0 0 0 30px;
+}
+.jewellery {
+   max-width: 100%;
+}
+.jewellery .vertical-align {
+   max-width: 100%;
+}
+.jewellery .vertical-align__item {
+   max-width: 49%;
+   display: inline-block;
+   vertical-align: top;
+}
+.jewellery__text {
+   color: #474747;
+   font-size: 20px;
+   line-height: 36px;
+   padding: 21px 0;
+   margin: 0 38px 0 0;
+}
+.jewellery__sub-title {
+   text-transform: uppercase;
+   color: #d06b00;
+   font-size: 28px;
+   margin: 0 0 13px 0;
+}
+.jewellery__title {
+   color: #0e333d;
+   font-size: 59px;
+   font-family: "DM Serif Text";
+   font-weight: 400;
+   line-height: 86px;
+   margin: 0 0 25px 0;
+}
+.jewellery__images .vertical-align__item {
+   max-width: 45%;
+   margin: 0 22px 0 0;
+}
+
+/* ОБОЛОЧКИ */
+.own-article {
+   max-width: 100%;
+   font-size: 40px;
+   background-color: #00000050;
+   padding: 5%;
+}
+.block {
+   display: block;
+   background-color: #ff000050;
+   padding: 5%;
+   margin: 5%;
+}
+.block p {
+   background-color: #ff000075;
+}
+.inline {
+   display: inline;
+   margin: 5%;
+   padding: 5%;
+}
+.inline p {
+   background-color: #00ff0050;
+}
+.inline-block {
+   display: inline-block;
+   background-color: #0400ff50;
+   margin: 5%;
+   padding: 5%;
+}
+.inline-block p {
+   background-color: #0400ff75;
+}
+
+/* ПРОБУЮ ВСЕ ЧОГО НЕ БУЛО В ВЕРСТЦІ */
+
+/* поєдную відступи */
+
+/*.block {
+	padding: 30px;
+	margin-bottom: 30px;
+}
+.block p {
+	margin-bottom: 30px;
+}*/
+
+/* піднімаю все на верхній блок від"ємним марджином */
+
+/*.block {
+   margin-bottom: -600px;
+}*/
+
+/*.inline-block {
+   margin-top: -100px;
+   margin-top: -1000px;
+}*/
+/* вище попереднього блоку не піднялось */
+
+/* ширина/висота */
+
+/*.block {
+   min-width: 30%;
+   max-width: 75%;
+   min-height: 500px;
+   max-height: 750px;
+}
+.inline-block {
+   width: 500px;
+   height: 75%;
+}*/
+
+/* OVERFLOW */
+
+/*.block {
+   max-height: 100px;
+   overflow: hidden scroll;
+}*/
+
+/* DISPLAY-NONE */
+
+.inline {
+   display: none;
+}
