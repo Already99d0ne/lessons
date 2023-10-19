@@ -1,0 +1,366 @@
+@import url("fonts.css");
+/* Reset CSS*/
+@import url("reset.css");
+
+.practice {
+   color: #ffffff;
+   padding: 50px 120px;
+   margin-bottom: 50px;
+}
+.practice-00 {
+   background-color: #9900ff8e;
+}
+.practice-01 {
+   background-image: linear-gradient(
+      90deg,
+      rgba(5, 255, 0, 0.5046393557422969) 0%,
+      rgba(0, 0, 255, 1) 50%,
+      rgba(255, 0, 0, 0.4962359943977591) 100%
+   );
+}
+.practice-02 {
+   background-image: radial-gradient(
+      circle,
+      rgba(5, 255, 0, 0.5046393557422969) 0%,
+      rgba(0, 0, 255, 1) 50%,
+      rgba(255, 0, 0, 0.4962359943977591) 100%
+   );
+}
+.practice-03 {
+   background-image: url(../img/background.jpg);
+}
+.practice-04 {
+   background-image: url(../img/pattern.jpg);
+}
+.practice-05 {
+   color: black;
+   background-image: url(../img/pattern.jpg);
+   background-repeat: no-repeat;
+}
+.practice-06 {
+   color: black;
+   background-image: url(../img/pattern.jpg);
+   background-repeat: repeat-x;
+}
+.practice-07 {
+   color: black;
+   background-image: url(../img/pattern.jpg);
+   background-repeat: repeat-y;
+}
+.practice-08 {
+   background-image: url(../img/background.jpg);
+   background-position: top;
+   background-position: bottom;
+   background-position: left;
+   background-position: right;
+   background-position: center;
+   background-position: -50px -50px;
+   background-position: 50%;
+}
+.practice-09 {
+   background-image: url(../img/background.jpg);
+   background-attachment: fixed;
+}
+.practice-10 {
+   background-image: url(../img/background.jpg);
+   background-size: 200px 200px;
+   background-attachment: fixed;
+}
+.practice-11 {
+   background-image: url(../img/background.jpg);
+   background-size: 100% 100%;
+}
+.practice-12 {
+   color: rgb(0, 0, 0);
+   width: 50%;
+   background-image: url(../img/background.jpg);
+   background-size: contain;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+.practice-13 {
+   width: 50%;
+   background-image: url(../img/background.jpg);
+   background-size: cover;
+   background-position: center;
+}
+.practice-14 {
+   background-image: url(../img/background.jpg);
+   background-size: 50%;
+   background-size: 200px;
+}
+.practice-15 {
+   background-image: url(../img/background.jpg);
+   background-size: auto 50%;
+   background-size: auto 200px;
+}
+.practice-16 {
+   height: 75%;
+   color: #ffffff;
+   background:
+      linear-gradient(
+            90deg,
+            rgba(0, 159, 255, 0.5) 0%,
+            rgba(0, 0, 0, 0.5) 33%,
+            rgba(0, 0, 0, 0.75) 50%,
+            rgba(0, 0, 0, 0.5) 66%,
+            rgba(255, 0, 254, 0.5) 100%
+         )
+         center / 80% 100% no-repeat,
+      url(../img/background.jpg) center / 55% 75% fixed;
+}
+.practice__container {
+   padding: 50px;
+   max-height: 500px;
+   max-width: 800px;
+   margin: 0 auto;
+   overflow-y: scroll;
+   border: 10px solid #6fe2d3;
+   margin-bottom: 100px;
+}
+.practice__container h1 {
+   font-size: 35px;
+}
+
+.consulting {
+   margin: 0 auto;
+   color: #37393f;
+   font-size: 18px;
+   font-family: "Inter", sans-serif;
+   max-width: 1250px;
+   padding: 0 15px;
+}
+.consulting__plan {
+   max-width: 673px;
+   margin: 0 auto;
+   padding-bottom: 50px;
+}
+
+.consulting__topic {
+   font-weight: 500;
+}
+.consulting__plan .consulting__topic {
+   margin-bottom: 16px;
+}
+.green-square {
+   display: inline-block;
+   width: 12px;
+   height: 12px;
+   background-color: #40ddb6;
+   margin-right: 6px;
+}
+.consulting__title {
+   font-size: 40px;
+   font-family: "Poppins", sans-serif;
+   font-weight: 700;
+   line-height: 1.21;
+}
+.consulting__plan .consulting__title {
+   padding-right: 33%;
+   margin-bottom: 20px;
+}
+.consulting__text p {
+   color: #7d7d7d;
+   line-height: 1.46;
+   margin-bottom: 15px;
+}
+.consulting__list {
+   font-size: 20px;
+   font-family: "Poppins", sans-serif;
+   line-height: 1.65;
+   margin-bottom: 43px;
+}
+.consulting__list li {
+   margin-bottom: 23px;
+   background: url(../img/mark.png) no-repeat;
+   padding-left: 36px;
+}
+.consulting__advantages {
+   margin-bottom: 37px;
+}
+.consulting__advantages p {
+   font-size: 16px;
+   line-height: 1.35;
+   margin-bottom: 0px;
+}
+.advantages__title {
+   color: #37393f;
+   font-size: 20px;
+   font-family: "Poppins", sans-serif;
+   font-weight: 600;
+   line-height: 1.5;
+}
+.exp-ico {
+   background: url(../img/exp.png) 31px 32px no-repeat;
+}
+.awards-ico {
+   background: url(../img/awards.png) 31px 32px no-repeat;
+}
+.verical-align {
+   width: 100%;
+}
+.vertical-align__item {
+   display: inline-block;
+   vertical-align: top;
+}
+.consulting__advantages .vertical-align__item {
+   max-width: 46%;
+   padding: 31px 35px 32px 93px;
+   border: 1px solid #e3e3e3;
+   margin-right: 21px;
+}
+.consulting__button a {
+   color: #ffffff;
+   line-height: 1.2;
+   font-weight: 600;
+   text-transform: capitalize;
+   display: inline-block;
+   padding: 22px 27px;
+   background-color: #6b77e5;
+}
+
+.projects__header .consulting__topic {
+   margin-bottom: 14px;
+}
+.projects__header .consulting__title {
+   margin-bottom: 14px;
+}
+
+.projects__header {
+   text-align: center;
+   width: 70%;
+   margin: 0 auto;
+   margin-bottom: 47px;
+}
+
+.projects__row {
+}
+.projects__row .vertical-align__item {
+   width: 30%;
+   min-height: 582px;
+   margin-right: 34px;
+   margin-bottom: 58px;
+}
+
+.projects-name {
+   font-weight: 600;
+   font-size: 20px;
+   line-height: 1.27;
+   margin-bottom: 10px;
+}
+.projects__date {
+   width: 95px;
+   height: 22px;
+   font-size: 14px;
+   padding-left: 25px;
+   background: url(../img/date-ico.png) no-repeat;
+}
+.row-img img {
+}
+.row-img {
+   width: 384px;
+   height: 501px;
+   background-size: cover;
+   margin-bottom: 24px;
+}
+.row-img__1-1 {
+   background: url(../img/projects1-1.png);
+}
+
+.row-img__1-2 {
+   background: url(../img/projects1-2.png);
+}
+.row-img__1-3 {
+   background: url(../img/projects1-3.png);
+}
+.row-img__2-1 {
+   background: url(../img/projects2-1.png);
+}
+.row-img__2-2 {
+   background: url(../img/projects2-2.png);
+}
+.row-img__2-3 {
+   background: url(../img/projects2-3.png);
+}
+.euphoria {
+   font-size: 20px;
+   max-width: 1440px;
+   padding: 0 100px 100px;
+   margin: 0 auto;
+   font-family: "Causten", sans-serif;
+   line-height: 1.7;
+}
+.euphoria__text-container {
+   padding-left: 21px;
+}
+.eu {
+   font-family: "Causten", sans-serif;
+   font-weight: 700;
+   color: #807d7e;
+}
+.euphoria p {
+   margin-bottom: 20px;
+}
+.euphoria__title {
+   font-size: 28px;
+   font-family: "Core Sans C", sans-serif;
+   font-weight: 600;
+   color: #3c4242;
+   line-height: 1.2;
+   margin-bottom: 30px;
+}
+.euphoria__sub-title {
+   color: #807d7e;
+   font-family: "Core Sans C", sans-serif;
+   font-weight: 600;
+   margin-bottom: 25px;
+}
+.purple-mark {
+   display: inline-block;
+   width: 6px;
+   height: 28px;
+   border-radius: 50px;
+   background-color: #8a33fd;
+}
+.title__purple-mark {
+   font-size: 0px;
+}
+.title__purple-mark .euphoria__title {
+   padding-left: 15px;
+}
+.euphoria__background-block * {
+   color: #fff;
+}
+.euphoria__background-block {
+   height: 640px;
+
+   background:
+      url(../img/euphoria-bg1.png) left/50% 100% no-repeat,
+      url(../img/euphoria-bg2.png) right/50% 100% no-repeat;
+}
+.background-block__text {
+   max-width: 466px;
+   padding-top: 183px;
+   padding-left: 6%;
+}
+.background-block__text .euphoria__title {
+   line-height: 1.47;
+}
+.background-block__text p {
+   line-height: 1.2;
+   opacity: 0.66;
+   margin-bottom: 50px;
+}
+.shop-button {
+   font-family: "Causten", sans-serif;
+   font-weight: 600;
+   font-size: 18px;
+   color: #3c4242;
+   width: 140px;
+   height: 48px;
+   background-color: #fff;
+   border-radius: 8px;
+   display: inline-block;
+   text-align: center;
+   padding-top: 10px;
+}
