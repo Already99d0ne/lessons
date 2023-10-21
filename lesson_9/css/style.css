@@ -1,0 +1,50 @@
+@import url("fonts.css");
+/* Reset CSS*/
+@import url("reset.css");
+
+.practice {
+   margin: 0 auto;
+   max-width: 90%;
+   background-color:#d8d87793;
+   padding: 30px;
+   text-align: center;
+   text-transform: uppercase;
+   font-size: 30px;
+}
+.practice__title {
+   margin-bottom: 50px;
+   font-size: 50px;
+}
+.practice p {
+   padding-bottom: 20px;
+}
+.hover {
+   display: inline-block;
+   width: 200px;
+   height: 200px;
+   padding: 30px;
+   background: url(../img/negative.jpg)  center/80% no-repeat;
+}
+.hover:hover {
+   background: url(../img/positive.jpg)  center/80% no-repeat;
+}
+ .active {
+   display: inline-block;
+   width: 200px;
+   height: 200px;
+   padding: 30px;
+   background: url(../img/negative.jpg)  center/80% no-repeat;
+ }
+ .active:active {
+   background: url(../img/positive.jpg)  center/80% no-repeat;
+}
+.visited {
+   display: inline-block;
+   width: 200px;
+   height: 200px;
+   padding: 30px;
+   background: url(../img/negative.jpg)  center/80% no-repeat;
+}
+.visited:visited {
+   background: url(../img/positive.jpg)  center/80% no-repeat;
+}
